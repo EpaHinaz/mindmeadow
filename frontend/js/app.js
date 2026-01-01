@@ -7,7 +7,7 @@ class WorksheetWebApp {
         this.worksheetsPerPage = 8;
         this.API_BASE_URL = window.location.hostname === 'localhost' 
             ? 'http://localhost:3001/api' 
-            : '/api'; // Change this to your deployed backend URL
+            : 'https://worksheetweb-backend.onrender.com/api'; // Change this to your deployed backend URL
         this.init();
     }
 
